@@ -13,15 +13,40 @@
 </head>
 <body>
     <nav><?php include_once "../inc/navbar.php" ?></nav>
-
     <div id="main" class="container">
         
+        <div id="updated">
+            Siste oppdatering ble gjort: <br> 
+            <strong><span id="time"></span></strong>
+        </div>
+        <div class="row">
+            <div id="oslo" class="col-4">
+                <h3>Oslo</h3>
+                <div class="OsloTemp">
+                    <span id="OsloTemp"></span>°C
+                </div>
+            </div>
+            <div id="London" class="col-4">
+                <h3>London</h3>
+                <div class="temperatur">
+                    <span id="LondonTemp"></span>°C
+                </div>
+            </div>
+            <div id="Minsk" class="col-4">
+                <h3>Minsk</h3>
+                <div class="temperatur">
+                    <span id="MinskTemp"></span>°C
+                </div>
+            </div>
+        </div>
     </div>
 
     <footer> <?php include_once "../inc/footer.php" ?> </footer>
     <!-- scripts -->
+    <script src="../../bower_components/moment/moment.js"></script>
     <script src="../../bower_components/jquery/dist/jquery.min.js"></script>
     <script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="../../js/custom.js"></script>
+    <script src="../../js/refresh.js"></script>
 </body>
 </html>

@@ -1,3 +1,22 @@
+body{
+    min-width: 320px;
+}
+
 nav{
-    margin-bottom: 2em;
+    margin-bottom: 4em;
+}
+
+#updated{
+    margin-bottom: 2em !important;
+    min-height: 3em !important;
+}
+
+#main{
+    min-height: 44em;
+}
+
+.footer{
+    min-height: 10em;
+    background: black;
+    color: #FFF !important;
 }
