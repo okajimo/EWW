@@ -1,4 +1,11 @@
+html{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 body{
+    margin: 0 !important;
+    padding: 0 !important;
     min-width: 320px;
 }
 
@@ -15,8 +22,9 @@ nav{
     min-height: 44em;
 }
 
-.footer{
+footer{
     min-height: 10em;
     background: black;
     color: #FFF !important;
+    padding-top: 2em;
 }
