@@ -1,12 +1,9 @@
-html{
-    margin: 0 !important;
-    padding: 0 !important;
+body{
+    min-width: 320px;
 }
 
-body{
-    margin: 0 !important;
-    padding: 0 !important;
-    min-width: 320px;
+.bg-dark{
+    background: black !important;
 }
 
 nav{
@@ -24,7 +21,7 @@ nav{
 
 footer{
     min-height: 10em;
-    background: black;
     color: #FFF !important;
     padding-top: 2em;
+    padding-bottom: 2em;
 }

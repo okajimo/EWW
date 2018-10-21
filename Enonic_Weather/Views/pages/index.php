@@ -41,7 +41,7 @@
         </div>
     </div>
 
-    <footer><?php include_once "../inc/footer.php" ?></footer>
+    <footer class="bg-dark"><?php include_once "../inc/footer.php" ?></footer>
     <!-- scripts -->
     <script src="../../bower_components/moment/moment.js"></script>
     <script src="../../bower_components/jquery/dist/jquery.min.js"></script>
