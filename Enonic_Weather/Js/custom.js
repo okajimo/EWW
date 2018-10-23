@@ -1,4 +1,5 @@
-var APPID = "a29dc0cc72931350a87fb592faaad652";
+//var APPID = "a29dc0cc72931350a87fb592faaad652";
+var APPID = "1972545c68af173f275c5208ce0f3dad";
 var OsloTemp;
 var LondonTemp;
 var MinskTemp;
