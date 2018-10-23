@@ -2,8 +2,8 @@ body{
     min-width: 320px;
 }
 
-.bg-dark{
-    background: black !important;
+.bg-black{
+    background: black;
 }
 
 nav{
@@ -11,8 +11,8 @@ nav{
 }
 
 #updated{
-    margin-bottom: 2em !important;
-    min-height: 3em !important;
+    margin-bottom: 2em;
+    min-height: 3em;
 }
 
 #main{
@@ -21,7 +21,7 @@ nav{
 
 footer{
     min-height: 10em;
-    color: #FFF !important;
+    color: #FFF;
     padding-top: 2em;
     padding-bottom: 2em;
 }

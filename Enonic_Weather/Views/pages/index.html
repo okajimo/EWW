@@ -12,9 +12,24 @@
     <link rel="stylesheet" href="../../Styles/custom.css">
 </head>
 <body>
-    <nav><?php include_once "../inc/navbar.php" ?></nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Enonic Weather Widget</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <div id="main" class="container">
-        
         <div id="updated">
             Siste oppdatering ble gjort: <br> 
             <strong><span id="time"></span></strong>
@@ -41,12 +56,23 @@
         </div>
     </div>
 
-    <footer class="bg-dark"><?php include_once "../inc/footer.php" ?></footer>
+    
+
+    <footer class="bg-black">
+        <div class="footer-box">
+            <div class="container">
+                <h4>Info:</h4>
+                <ul>
+                    <li>Opprettet 21.10.2018</li>
+                    <li>Author Ivo K &#169;</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
     <!-- scripts -->
     <script src="../../bower_components/moment/moment.js"></script>
     <script src="../../bower_components/jquery/dist/jquery.min.js"></script>
     <script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="../../js/custom.js"></script>
-    <script src="../../js/refresh.js"></script>
 </body>
 </html>

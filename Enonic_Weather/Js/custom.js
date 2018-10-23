@@ -51,7 +51,7 @@ function Oppdater(weather, check){
     }
 }
 
-window.onload = function (){
+function getData(){
     OsloTemp = document.getElementById("OsloTemp");
     LondonTemp = document.getElementById("LondonTemp");
     MinskTemp = document.getElementById("MinskTemp");
@@ -59,7 +59,17 @@ window.onload = function (){
     updateByName("Oslo,no", "no");
     updateByName("London,uk", "en");
     updateByName("Minsk", "mi");
-
+    
     time = document.getElementById("time");
-    time.innerHTML = moment().format('MMMM Do YYYY, h:mm:ss a'); 
+    time.innerHTML = moment().format('MMMM Do YYYY, h:mm:ss a');
 }
+
+window.onload = function (){
+    getData();
+}
+
+$("document").ready(function(){
+    window.setInterval(function(){
+        getData();
+    }, 60000);
+});
